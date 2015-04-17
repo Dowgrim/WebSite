@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 align="center">EXPERIENCES</h1>
+<div ng-repeat="e in experiences">
+  <div class="row">
+    <div class="col-xs-8">
+      <h2>{{e.Nom}} </h2>
+    </div>
+    <div align="right" class="col-xs-4">
+      <h2>{{e.Annee}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <p>
+      {{e.Description}}</p>
+  </div>
+  <div class="row">
+    <img class="img-responsive" src="{{e.Image}}">
+  </div>
+  <hr >
+</div>
+</body>
+</html>

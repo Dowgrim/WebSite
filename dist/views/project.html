@@ -1,0 +1,22 @@
+<div>
+  <p>  <h1 align="center">PROJETS</h1>
+  <br>
+  <div ng-repeat="p in projects">
+    <div class="row">
+      <div class="col-xs-10">
+        <h2>{{p.Nom}} </h2>
+      </div>
+      <div class="col-xs-2">
+      <h2>{{p.Annee}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <p align="left">
+        {{p.Description}}</p>
+    </div>
+    <div class="row">
+      <img class="img-responsive taille-image" src="{{p.Image}}">
+    </div>
+    <hr>
+  </div></p>
+</div>

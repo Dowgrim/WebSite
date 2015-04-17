@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 align="center">LOISIRS</h1>
+<div ng-repeat="l in loisirs">
+  <p align="left">{{l.Nom}} : {{l.Description}}</p>
+  <div align="center"><img src="{{l.Image}}" width="300px"  class="img-responsive img-circle" ></div>
+  <a href="{{l.src}}"  >{{l.srcText}}</a>
+  <hr>
+</div>
+</body>
+</html>
